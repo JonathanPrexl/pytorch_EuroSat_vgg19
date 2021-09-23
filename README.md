@@ -10,16 +10,7 @@ Those weights can be used to serve as a ***perceptual loss*** for other remote s
 
 
 
-### Training Details
+Here a peak view on how training process usually (with default parameter) looks over 50 epochs:
 
-The loss on the training and validation set over 50 epochs. Bets val-score was saved to the checkpoint folder. 
+![training](./figures/training.png)
 
-![training](/home/jp/Documents/code/vgg19_RS_perceptual_loss/figures/training.png)
-
-### Confusion Matrix of the pretrained Network
-
-Trained on 15k sampels, validated on 5k sampels. The model checkpoint can be found under /checkpoint/model_epoch_41_step_39018.pth
-
-
-
-![cm_epoch_41_step_39018](/home/jp/Documents/code/vgg19_RS_perceptual_loss/checkpoint/cm_epoch_41_step_39018.png)
