@@ -1,4 +1,4 @@
-# pytorch_EuroSat_vgg19
+# pytorch EuroSat vgg19
 
 
 
